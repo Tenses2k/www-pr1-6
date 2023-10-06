@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+   </head> 
+   <body>
+    <Header>
+     <nav>
+         <ul>
+             <li><a href="../indexвосташий.html">На главную</a></li>
+             <li><a href="news.html">Новости</a></li>
+             <li><a href="personal.html">Личный кабинет</a></li>
+             <li><a href="works/work.html">Мои работы</a></li>
+             <li><a href="login.html">Вход</a></li>
+             <li><a href="registr.html">Регистрация</a></li>
+         </ul>
+     </nav>
+        <h1>регистрация на сайте Дарвиш</h1>
+    </Header>
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>Заполните поля регистрации</legend>
+                    <label for="fam">Фамилия</label>
+                    <input id="fam" type="text" placeholder="Иванов" required autofocus><br>
+
+                    <label for="im">Имя</label>
+                    <input id="im" type="text" placeholder="Иван" required><br>
+
+                    <label for="ot">Отчетсво</label>
+                    <input id="ot" type="text" placeholder="Иванович" required><br>
+
+                    <label for="imail">Email</label>
+                    <input id="imail" type="email" placeholder="ivanivanov@gmail.com" required><br>
+
+                    <label for="pswrd_1">Введите пароль</label>
+                    <input id="pswrd_1" type="password" required><br>
+
+                    <label for="data">Ваша дата рождения</label>
+                    <input id="data" type="date" required><br>
+
+                    <label for="pswrd_2">Подтвердите пароль</label>
+                    <input id="pswrd_2" type="password"><br> 
+
+                    <label for="obr">Согласие на обработку данных</label><br>
+                    <input id="obr" type="checkbox" required>
+
+                    <br><br>
+                    <input type="submit" value="Зарегестрироваться"> <br>
+                    <input type="reset" value="Сбросить данные">
+                    
+            </fieldset>
+        </form>
+    </main>
+</html>
